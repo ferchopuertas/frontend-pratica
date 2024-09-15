@@ -1,0 +1,907 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Formulario INVA */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: black;
+  position: relative;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  position: relative;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 2em;
+  margin: 20px 0;
+  color: white;
+}
+
+.titulo .span {
+  color: #01ffc3;
+}
+
+.container .hora {
+  position: absolute;
+  top: 75px;
+  right: 305px;
+  border-radius: 5px;
+  border: 1px solid #01ffc3;
+  background-color: transparent;
+  color: #01ffc3;
+  box-shadow:  
+        inset 0 0 .5em #01ffc3,
+              0 0 .3em #01ffc3;
+}
+
+.hora .option{
+  background-color: black;
+  border-radius: 10px;
+}
+
+.container .hora:focus {
+  outline: none;
+}
+
+.container-formu {
+  margin-top: 20px;
+  
+}
+
+.formulario-inva {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.zonas-inva{
+  border: 3px solid #01ffc3;
+  border-radius: 5px;
+  position: relative;
+  width: 600px;
+  box-shadow:  
+        inset 0 0 1em #01ffc3,
+              0 0 1em #01ffc3;
+}
+
+.zonas-inva .h2 {
+  position: absolute;
+  top: -15px;
+  left: 10px;
+  background-color: black;
+  padding: 0 3px;
+  color: white;
+  font-size: 20px;
+  border: 2px solid #01ffc3;
+  border-radius: 10px;
+  box-shadow:  
+        inset 0 0 1em #01ffc3,
+              0 0 1em #01ffc3;
+}
+
+.bloque-zona {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.input-bloque {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 5px;
+}
+
+.text-label {
+  margin: 0 40px;
+  color: #01ffc3;
+}
+
+.input-member {
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid dashed;
+  margin: 5px 5px;
+  height: 20px;
+  background-color: transparent;
+  color: white;
+}
+
+.input-member:focus {
+  outline: none;
+}
+
+.formulario-inva .btn-asis {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #01ffc3;
+  background-color: transparent;
+  color: #01ffc3;
+  box-shadow:  
+        inset 0 0 .5em #01ffc3,
+              0 0 .3em #01ffc3;
+  text-shadow:
+    0 0 1em #01ffc3,
+    0 0 1em #01ffc3
+  ;
+  transition: .5s;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.formulario-inva .btn-asis:hover {
+  background-color: #01ffc3;
+  color: white;
+}
+
+.container .captura-output{
+  background-color: transparent;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #01ffc3;
+  box-shadow:  
+        inset 0 0 1em #01ffc3,
+              0 0 1em #01ffc3;
+  border-radius: 5px;
+}
+
+.captura-output .h3{
+  color: white;
+  margin-bottom: 3px;
+}
+
+.captura-output .text-tarea{
+  border-radius: 5px;
+  height: 330px;
+  color: #01ffc3;
+  background-color: transparent;
+  width: 100%;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12px;
+}
+
+/*Formulario DS*/
+
+.container-ds {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: black;
+  position: relative;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.titulo-ds {
+  text-align: center;
+  font-size: 2em;
+  margin: 20px 0;
+  color: white;
+}
+
+.titulo-ds .span-ds {
+  color: #01ffc3;
+}
+
+.container-ds .hora-ds {
+  position: absolute;
+  top: 75px;
+  right: 305px;
+  border-radius: 5px;
+  border: 1px solid #01ffc3;
+  background-color: transparent;
+  color: #01ffc3;
+  box-shadow:  
+        inset 0 0 .5em #01ffc3,
+              0 0 .3em #01ffc3;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.hora-ds .option-ds{
+  background-color: black;
+  border-radius: 10px;
+}
+
+.container-ds .hora-ds:focus {
+  outline: none;
+}
+
+.container-formu-ds {
+  margin-top: 20px;
+  
+}
+
+.formulario-inva-ds {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.zonas-inva-ds{
+  border: 3px solid #01ffc3;
+  border-radius: 5px;
+  position: relative;
+  width: 600px;
+  box-shadow:  
+        inset 0 0 1em #01ffc3,
+              0 0 1em #01ffc3;
+}
+
+.zonas-inva-ds .h2-ds {
+  position: absolute;
+  top: -15px;
+  left: 10px;
+  background-color: black;
+  padding: 0 3px;
+  color: white;
+  font-size: 20px;
+  border: 2px solid #01ffc3;
+  border-radius: 10px;
+  box-shadow:  
+        inset 0 0 1em #01ffc3,
+              0 0 1em #01ffc3;
+}
+
+.bloque-zona-ds {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.input-bloque-ds {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 5px;
+}
+
+.text-label-ds {
+  margin: 0 40px;
+  color: #01ffc3;
+}
+
+.input-member-ds {
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid dashed;
+  margin: 5px 5px;
+  height: 20px;
+  background-color: transparent;
+  color: white;
+}
+
+.input-member-ds:focus {
+  outline: none;
+}
+
+.formulario-inva-ds .btn-asis-ds {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #01ffc3;
+  background-color: transparent;
+  color: #01ffc3;
+  box-shadow:  
+        inset 0 0 .5em #01ffc3,
+              0 0 .3em #01ffc3;
+  text-shadow:
+    0 0 1em #01ffc3,
+    0 0 1em #01ffc3
+  ;
+  transition: .5s;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.formulario-inva-ds .btn-asis-ds:hover {
+  background-color: #01ffc3;
+  color: white;
+}
+
+.container-ds .captura-output{
+  background-color: transparent;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #01ffc3;
+  box-shadow:  
+        inset 0 0 1em #01ffc3,
+              0 0 1em #01ffc3;
+  border-radius: 5px;
+}
+
+.captura-output .h3{
+  color: white;
+  margin-bottom: 3px;
+}
+
+.captura-output .text-tarea{
+  border-radius: 5px;
+  height: 330px;
+  color: #01ffc3;
+  background-color: transparent;
+  width: 100%;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 12px;
+}
+
+
+
+/*Principal*/
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main .navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 0 5px;
+  gap: 100px;
+}
+
+.navbar .title-image{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.title-image img{
+  width: 60px;
+  height: 50px;
+}
+
+.title-image .title-main {
+  color: white;
+  font-size: 30px;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-left: 20px;
+}
+
+.navbar .buttons-pages {
+  display: flex;
+  gap: 20px;
+  margin-top: 92px;
+}
+
+.buttons-pages .btn-pages{
+  color: white;
+  height: 25px;
+  border: none;
+  border-bottom: 4px solid white;
+  border-radius: 20px;
+  background-color: transparent;
+  padding: 4px 7px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+  transition: .5s ease-in;
+}
+
+.buttons-pages .btn-pages:hover{
+  border-bottom: 4px solid #01ffc3;
+}
+
+.btn-pages.active{
+  border-bottom: 4px solid #01ffc3;
+}
+
+.navbar .user-info{
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100px;
+  margin: 5px;
+  padding: 3px;
+  gap: 8px;
+}
+
+.user-info .username{
+  color: white;
+}
+
+.username .span-user{
+  color: #01ffc3;
+  font-weight: 600;
+}
+
+.user-info .logout-button{
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 13px;
+  transition: .5s;
+  border: 2px solid #01ffc3;
+  border-radius: 5px;
+  background-color: transparent;
+  text-shadow:
+    0 0 .5em #01ffc3,
+    0 0 .5em #01ffc3
+  ;
+  box-shadow: inset 0 0 1em #01ffc3,
+              0 0 1em #01ffc3;
+  color: #01ffc3;
+  height: 30px;
+}
+
+.user-info .logout-button:hover{
+  background-color: #01ffc3;
+  color: black;
+  border-radius: 5px;
+  box-shadow: inset 0 0 4em #01ffc3,
+              0 0 4em #01ffc3;
+              opacity: 1;
+}
+
+
+.main-content {
+  flex-grow: 1;
+  background-color: black;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  width: 100%;
+}
+
+
+
+
+
+/* Popup Overlay */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+/* Popup Content */
+.popup-content {
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  background-color: black;
+  box-shadow:  inset 0 0 1em #01ffc3,
+              0 0 1em #01ffc3;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.popup-content h2 {
+  margin-top: 0;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.popup-content label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: 2px solid dashed;
+  color: white;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.popup-content input:focus {
+  outline: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.popup-content .btn-popup{
+  margin: 5px;
+  height: 40px;
+  transition: .5s;
+  border: 2px solid #01ffc3;
+  border-radius: 5px;
+  background-color: transparent;
+  text-shadow:
+    0 0 .5em #01ffc3,
+    0 0 .5em #01ffc3
+  ;
+  box-shadow: inset 0 0 1em #01ffc3,
+              0 0 1em #01ffc3;
+  color: #01ffc3;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.popup-content .btn-popup:hover{
+  background-color: #01ffc3;
+  color: black;
+  border-radius: 5px;
+  box-shadow: inset 0 0 4em #01ffc3,
+              0 0 4em #01ffc3;
+              opacity: 1;
+}
+
+
+/* Tabla */
+.container-table{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.container-table .Asis-Cobro{
+  border: 2px solid #01ffc3;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 20%;
+  margin: 10px 0px;
+  border-radius: 5px;
+  background-color: #222;
+  color: white;
+}
+
+.btn-acciones-miembro{
+  margin: 5px 5px;
+  background-color: #222;
+  border: none;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+  transition: 0.5s;
+  padding: 10px;
+  width: 20%;
+  
+}
+
+.btn-acciones-asis{
+  margin: 5px 5px;
+  background-color: #222;
+  border: none;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+  transition: 0.5s;
+  padding: 10px;
+}
+
+.btn-acciones-asis .acciones-span-asis,
+.btn-acciones-miembro .acciones-span-asis{
+  color: black;
+  position: relative;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-shadow:
+    0 0 .40em #01ffc3,
+    0 0 .60em #01ffc3;
+}
+
+.btn-acciones-asis::before,
+.btn-acciones-miembro::before{
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 0%;
+  left: 50%;
+  right: 50%;
+  top: 50%;
+  bottom: 50%;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+  background: 
+    
+  #01ffc3
+  ;
+  box-shadow: 0 0 5px #01ffc3,
+              0 0 10px #01ffc3,
+              0 0 15px #01ffc3;
+  
+  
+}
+
+.btn-acciones-asis div,
+.btn-acciones-miembro div{
+  position: absolute;
+  transition: 0.5s;
+  background-color: #01ffc3;
+  box-shadow: 0 0 15px #01ffc3,
+              0 0 30px #01ffc3,
+              0 0 50px #01ffc3;
+  border-radius: 100%;
+}
+
+.btn-acciones-asis .top,
+.btn-acciones-miembro .top{
+  width: 15px;
+  height: 3px;
+  top: 0;
+  left: 0;
+}
+
+.btn-acciones-asis .bottom,
+.btn-acciones-miembro .bottom{
+  width: 15px;
+  height: 3px;
+  bottom: 0;
+  right: 0;
+}
+
+.btn-acciones-asis .left,
+.btn-acciones-miembro .left{
+  width: 3px;
+  height: 15px;
+  top: 0;
+  left: 0;
+}
+
+.btn-acciones-asis .right,
+.btn-acciones-miembro .right{
+  width: 3px;
+  height: 15px;
+  bottom: 0;
+  right: 0;
+}
+
+.btn-acciones-asis:hover .top,
+.btn-acciones-asis:hover .bottom,
+.btn-acciones-miembro:hover .top,
+.btn-acciones-miembro:hover .bottom{
+  width: 100%;
+}
+
+.btn-acciones-asis:hover .left,
+.btn-acciones-asis:hover .right,
+.btn-acciones-miembro:hover .left,
+.btn-acciones-miembro:hover .right{
+  height: 100%;
+}
+
+.btn-acciones-asis:hover::before,
+.btn-acciones-miembro:hover::before{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.container-table .table{
+  width: 100%;
+  font-weight: 600;
+}
+
+.table .tr{
+  text-align: center;
+}
+
+.table th{
+  background: black;
+  border: 2px solid #01ffc3;
+  text-transform: uppercase;
+  border-radius: 3px;
+  color: white;
+}
+
+
+.table td{
+  border: 2px solid white;
+  border-radius: 3px;
+  padding: 4px;
+  background-color: transparent;
+  color: white;
+}
+
+.table .btn-acciones{
+  margin: 2px;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  border: 0;
+  background-color: #01ffc3;
+  border-radius: 8px;
+  color: #fff;
+  padding: 8px 5px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.btn-acciones .acciones-span{
+  background-color: #111;
+  padding: 4px 4px;
+  border-radius: 6px;
+  transition: .5s;
+  width: 100%;
+}
+
+.btn-acciones:hover .acciones-span{
+  background: none;
+  color: #111;
+}
+
+.table .btn-acciones-calcular{
+  margin: 2px;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  padding: 8px 5px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.btn-acciones-calcular .acciones-span{
+  background-color: #111;
+  padding: 4px 4px;
+  border-radius: 6px;
+  transition: .5s;
+  width: 100%;
+}
+
+
+.btn-acciones-calcular:hover .acciones-span{
+  background: none;
+  color: #111;
+}
+
+
+
+
+.table .boton-verde{
+  margin: 2px;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  border: 0;
+  background-color: #44f814;
+  border-radius: 8px;
+  color: white;
+  padding: 8px 5px;
+  cursor: pointer;
+  transition: .5s;
+
+}
+
+.boton-verde .acciones-cobrar{
+  background-color: black;
+  padding: 4px 4px;
+  border-radius: 5px;
+  transition: .5s;
+  width: 100%;
+}
+
+.boton-verde .acciones-cobrar:hover{
+  background-color: transparent;
+  color: black;
+}
+
+
+.table .boton-rojo{
+  margin: 2px;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  border: 0;
+  background-color: #ff073a;
+  border-radius: 8px;
+  color: #ff073a;
+  padding: 8px 5px;
+  cursor: pointer;
+  transition: .5s;
+  cursor: not-allowed;
+
+}
+
+.boton-rojo .acciones-cobrar{
+  background-color: black;
+  padding: 4px 4px;
+  border-radius: 6px;
+  transition: .5s;
+  width: 100%;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
