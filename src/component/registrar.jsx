@@ -18,7 +18,7 @@ const RegisterAdmin = ({ onRegister }) => {
 
   const solicitarCodigo = async () => {
     try {
-      const response = await fetch('https://backend-claerror404.onrender.com/api/login/request-admin-code', {
+      const response = await fetch('https://backend-error404.onrender.com/api/login/request-admin-code', {
         method: 'GET',
       });
 
@@ -52,7 +52,7 @@ const RegisterAdmin = ({ onRegister }) => {
     const role = adminCode ? 'admin' : 'miembro';
 
     try {
-      const response = await fetch('https://backend-claerror404.onrender.com/api/login/register', {
+      const response = await fetch('https://backend-error404.onrender.com/api/login/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
