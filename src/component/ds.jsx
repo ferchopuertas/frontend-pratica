@@ -57,7 +57,7 @@ const Ds = ({disableButtons}) => {
 
                 const token = localStorage.getItem('token')
                 // Verificar si el nombre existe
-                const response = await fetch('https://backend-claerror404.onrender.com/api/miembros/miembro-existe', {
+                const response = await fetch('https://backend-error404.onrender.com/api/miembros/miembro-existe', {
                     method: 'POST',
                     headers: { 
                         'Content-Type': 'application/json',
@@ -76,7 +76,7 @@ const Ds = ({disableButtons}) => {
     
                 // Agregar asistencias
                 const asistencias = horario === "05:00" || horario === "07:00" ? 2 : 1;
-                await fetch('https://backend-claerror404.onrender.com/api/miembros/update-asistencias', {
+                await fetch('https://backend-error404.onrender.com/api/miembros/update-asistencias', {
                     method: 'POST',
                     headers: { 
                         'Content-Type': 'application/json',
