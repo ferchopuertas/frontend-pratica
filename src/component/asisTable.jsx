@@ -30,7 +30,7 @@ const AsistenciasTable = ({ disableButtons }) => {
         const token = localStorage.getItem('token'); // O donde guardes el token
     
         try {
-            const response = await fetch('https://backend-claerror404.onrender.com/api/miembros', {
+            const response = await fetch('https://backend-error404.onrender.com/api/miembros', {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -51,7 +51,7 @@ const AsistenciasTable = ({ disableButtons }) => {
         const token = localStorage.getItem('token'); // O donde guardes el token
     
         try {
-            const response = await fetch('https://backend-claerror404.onrender.com/api/stock', {
+            const response = await fetch('https://backend-error404.onrender.com/api/stock', {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -72,7 +72,7 @@ const AsistenciasTable = ({ disableButtons }) => {
         const token = localStorage.getItem('token'); // O donde guardes el token
     
         try {
-            const response = await fetch('https://backend-claerror404.onrender.com/api/asisnec', {
+            const response = await fetch('https://backend-error404.onrender.com/api/asisnec', {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -93,7 +93,7 @@ const AsistenciasTable = ({ disableButtons }) => {
     const createMiembro = async () => {
         try {
             const token = localStorage.getItem('token'); // Obtenemos el token nuevamente
-            const res = await fetch('https://backend-claerror404.onrender.com/api/miembros', {
+            const res = await fetch('https://backend-error404.onrender.com/api/miembros', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -121,7 +121,7 @@ const AsistenciasTable = ({ disableButtons }) => {
         const token = localStorage.getItem('token')
         
         try {
-            const response = await fetch(`https://backend-claerror404.onrender.com/api/miembros/${miembro.id}`, {
+            const response = await fetch(`https://backend-error404.onrender.com/api/miembros/${miembro.id}`, {
                 method: 'PUT',
                 headers: { 
                     'Content-Type': 'application/json',
@@ -148,7 +148,7 @@ const AsistenciasTable = ({ disableButtons }) => {
 
         const token = localStorage.getItem('token')
         try {
-            const response = await fetch(`https://backend-claerror404.onrender.com/api/stock/${stock.id}`, {
+            const response = await fetch(`https://backend-error404.onrender.com/api/stock/${stock.id}`, {
                 method: 'PUT',
                 headers: { 
                     'Content-Type': 'application/json',
@@ -172,7 +172,7 @@ const AsistenciasTable = ({ disableButtons }) => {
         const token = localStorage.getItem('token')
 
         try {
-            const response = await fetch(`https://backend-claerror404.onrender.com/api/asisnec/${asisnec.id}`, {
+            const response = await fetch(`https://backend-error404.onrender.com/api/asisnec/${asisnec.id}`, {
                 method: 'PUT',
                 headers: { 
                     'Content-Type': 'application/json',
@@ -197,7 +197,7 @@ const AsistenciasTable = ({ disableButtons }) => {
         const token = localStorage.getItem('token')
 
         try {
-            const response = await fetch(`https://backend-claerror404.onrender.com/api/miembros/${id}`, {
+            const response = await fetch(`https://backend-error404.onrender.com/api/miembros/${id}`, {
                 method: 'DELETE',
                 headers: {
                     'Content-Type': 'application/json',
@@ -341,7 +341,7 @@ const AsistenciasTable = ({ disableButtons }) => {
 
             const token = localStorage.getItem('token')
 
-            const response = await fetch('https://backend-claerror404.onrender.com/api/miembros/calcular-cobros', {
+            const response = await fetch('https://backend-error404.onrender.com/api/miembros/calcular-cobros', {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -363,7 +363,7 @@ const AsistenciasTable = ({ disableButtons }) => {
 
             const token = localStorage.getItem('token')
 
-            const response = await fetch(`https://backend-claerror404.onrender.com/api/miembros/pago-cobros/${miembroId}`, {
+            const response = await fetch(`https://backend-error404.onrender.com/api/miembros/pago-cobros/${miembroId}`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
